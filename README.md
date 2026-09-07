@@ -85,6 +85,7 @@ CREATE TABLE mascota_servicio (
 );
 ```
 ---
+
 ## 📥  DML – Inserción de Datos (10 registros por tabla)
 Incluye 10 registros para cada tabla, cumpliendo los requisitos del proyecto.
 
@@ -146,6 +147,7 @@ INSERT INTO mascota_servicio (ID_Mascota, ID_Servicio, fecha) VALUES
 (9,9,'2024-03-20');
 ```
 ---
+
 ### ⚙️  Procedimientos Almacenados (19 Total)
 El proyecto incluye 19 procedimientos, organizados por categoría.
 
@@ -188,6 +190,8 @@ Transferir Mascota
 Aumentar Estatura de Mascotas
 
 Verificar Existencia de Correo
+
+
 ---
 
 ### 🔁  Estructuras de Control Usadas
@@ -214,7 +218,9 @@ Para validar:
 Correos duplicados
 
 Servicios inexistentes
+
 ---
+
 ### 📂  Estructura del Repositorio
 ```text
 /veterinaria-db
