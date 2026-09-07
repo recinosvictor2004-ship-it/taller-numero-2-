@@ -12,7 +12,7 @@ Este proyecto implementa una base de datos relacional para la gestión de una ve
 
 ---
 
-## 📘 1. Objetivo del Proyecto
+## 📘  Objetivo del Proyecto
 
 El propósito de este proyecto es demostrar dominio en:
 
@@ -47,7 +47,7 @@ La base de datos permite administrar:
 
 ---
 
-## 🧱 3. DDL – Creación de Tablas
+## 🧱  DDL – Creación de Tablas
 
 ```sql
 CREATE DATABASE veterinaria;
@@ -85,7 +85,7 @@ CREATE TABLE mascota_servicio (
 );
 ```
 ---
-## 📥 4. DML – Inserción de Datos (10 registros por tabla)
+## 📥  DML – Inserción de Datos (10 registros por tabla)
 Incluye 10 registros para cada tabla, cumpliendo los requisitos del proyecto.
 
 ### Clientes
@@ -146,7 +146,7 @@ INSERT INTO mascota_servicio (ID_Mascota, ID_Servicio, fecha) VALUES
 (9,9,'2024-03-20');
 ```
 ---
-### ⚙️ 5. Procedimientos Almacenados (19 Total)
+### ⚙️  Procedimientos Almacenados (19 Total)
 El proyecto incluye 19 procedimientos, organizados por categoría.
 
 ## 🟦 CRUD Básico
@@ -190,7 +190,7 @@ Aumentar Estatura de Mascotas
 Verificar Existencia de Correo
 ---
 
-### 🔁 7. Estructuras de Control Usadas
+### 🔁  Estructuras de Control Usadas
 ## IF–THEN–ELSE
 Validación de servicios y clasificación de mascotas.
 
@@ -203,7 +203,7 @@ Registrar un servicio múltiples veces.
 ## LOOP
 Procesar una lista de servicios.
 ---
-### 🛑 8. Manejo de Errores
+### 🛑  Manejo de Errores
 Se utiliza:
 ```sql
 SIGNAL SQLSTATE '45000'
@@ -215,7 +215,7 @@ Correos duplicados
 
 Servicios inexistentes
 ---
-### 📂 9. Estructura del Repositorio
+### 📂  Estructura del Repositorio
 ```text
 /veterinaria-db
 │
