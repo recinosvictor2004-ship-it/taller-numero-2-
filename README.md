@@ -88,7 +88,7 @@ CREATE TABLE mascota_servicio (
 ## 📥 4. DML – Inserción de Datos (10 registros por tabla)
 Incluye 10 registros para cada tabla, cumpliendo los requisitos del proyecto.
 
-# Clientes
+### Clientes
 ```sql
 INSERT INTO clientes (nombre, direccion, correoElectronico, activo) VALUES
 ('Carlos Pérez','Zona 1','carlos@gmail.com',1),
@@ -102,7 +102,7 @@ INSERT INTO clientes (nombre, direccion, correoElectronico, activo) VALUES
 ('Ricardo Ramos','Zona 2','ricardo@gmail.com',1),
 ('Paola Martínez','Zona 9','paola@gmail.com',1);
 ```
-# Mascotas 
+### Mascotas 
 ```sql
 INSERT INTO mascotas (ID_Cliente, nombre, nPatas, estatura) VALUES
 (1,'Firulais',4,0.45),
@@ -116,7 +116,7 @@ INSERT INTO mascotas (ID_Cliente, nombre, nPatas, estatura) VALUES
 (8,'Kira',4,0.35),
 (9,'Nina',4,0.42);
 ```
-# Servicios 
+### Servicios 
 ```sql
 INSERT INTO servicios (nombre, precio) VALUES
 ('Baño',50.00),
@@ -131,7 +131,7 @@ INSERT INTO servicios (nombre, precio) VALUES
 ('Chequeo anual',180.00);
 ```
 
-# Mascotas_Servicio
+### Mascotas_Servicio
 ```sql
 INSERT INTO mascota_servicio (ID_Mascota, ID_Servicio, fecha) VALUES
 (1,1,'2024-01-10'),
@@ -149,7 +149,7 @@ INSERT INTO mascota_servicio (ID_Mascota, ID_Servicio, fecha) VALUES
 ### ⚙️ 5. Procedimientos Almacenados (19 Total)
 El proyecto incluye 19 procedimientos, organizados por categoría.
 
-# 🟦 CRUD Básico
+## 🟦 CRUD Básico
 Insertar Cliente
 
 Actualizar Cliente
@@ -160,21 +160,21 @@ Actualizar Precio de Servicio
 
 Eliminar Servicio por Nombre
 
-# 🟩 Consultas
+## 🟩 Consultas
 Listar Servicios de una Mascota
 
 Listar Mascotas por Cliente
 
 Clasificar Mascotas por Estatura
 
-# 🟧 Contadores (parámetros OUT)
+## 🟧 Contadores (parámetros OUT)
 Contar Mascotas por Cliente
 
 Contar Servicios por Mascota
 
 Contar Clientes Activos
 
-# 🟥 Lógica Avanzada
+## 🟥 Lógica Avanzada
 Registrar Servicio a Mascota
 
 Registrar Múltiples Servicios
@@ -191,16 +191,16 @@ Verificar Existencia de Correo
 ---
 
 ### 🔁 7. Estructuras de Control Usadas
-# IF–THEN–ELSE
+## IF–THEN–ELSE
 Validación de servicios y clasificación de mascotas.
 
-# WHILE
+## WHILE
 Aumentar estatura de todas las mascotas.
 
-# REPEAT
+## REPEAT
 Registrar un servicio múltiples veces.
 
-# LOOP
+## LOOP
 Procesar una lista de servicios.
 ---
 ### 🛑 8. Manejo de Errores
